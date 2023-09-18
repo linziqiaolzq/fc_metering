@@ -27,9 +27,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.aliyun.inner</groupId>
+			<groupId>com.aliyun</groupId>
 			<artifactId>computenestsupplier20210521</artifactId>
-			<version>3.3.2</version>
+			<version>3.4.2</version>
 		</dependency>
 		<dependency>
 			<groupId>com.aliyun</groupId>
@@ -52,7 +52,7 @@
 			<version>3.0.28</version>
 		</dependency>
 		<dependency>
-			<groupId>com.aliyun.inner</groupId>
+			<groupId>com.aliyun</groupId>
 			<artifactId>aliyun-java-sdk-cs</artifactId>
 			<version>4.8.3</version>
 		</dependency>
