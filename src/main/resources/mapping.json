@@ -1,0 +1,38 @@
+{
+  "MeterMappers": {
+    "NetworkOut": [
+      {
+        "Key": "NetworkOut",
+        "Value": "Usage * 12048576"
+      }
+    ],
+    "Disk": [
+      {
+        "Key": "Storage",
+        "Value": "Usage"
+      }
+    ],
+    "InstanceType": [
+      {
+        "Key": "VirtualCpu",
+        "Value": "InstanceConfig.CPU * Usage"
+      },
+      {
+        "Key": "VirtualCpu",
+        "Value": "InstanceConfig.RAM * Usage"
+      },
+      {
+        "Key": "VirtualCpu",
+        "Value": "InstanceConfig.CPU * Usage + InstanceConfig.RAM * Usage + InstanceConfig.DISK"
+      },
+      {
+        "Key": "Period",
+        "Value": "ServicePeriod"
+      },
+      {
+        "Key": "PeriodMin",
+        "Value": "ServicePeriod"
+      }
+    ]
+  }
+}

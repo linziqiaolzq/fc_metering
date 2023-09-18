@@ -1,0 +1,14 @@
+MeterMappers:
+  NetworkOut:
+    - Key: NetworkOut
+      Value: Usage * 12048576
+  Disk:
+    - Key: Storage
+      Value: Usage * 1
+  InstanceType:
+    - Key: VirtualCpu
+      Value: InstanceConfig.CPU * Usage
+    - Key: Period
+      Value: ServicePeriod * 1
+    - Key: PeriodMin
+      Value: ServicePeriod * 1
